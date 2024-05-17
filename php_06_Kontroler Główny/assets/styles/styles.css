@@ -1,0 +1,100 @@
+body {
+    width:90%;
+    margin: 2em auto;
+    background: #c9ccce;
+    color: #333;
+    font-size: 20px;
+    font-family: Monospaced, monospace;
+}
+
+.header, .footer, .content, .menu {
+    margin: 1em auto;
+    border: 0.01em solid #752828;
+    border-radius: 1em;
+    padding: 1em;
+    background: #f5f5f5;
+    box-shadow: 0.2em 0.2em 0.4em #ccc;
+}
+
+.header, .footer{
+    text-align: center;
+}
+
+.credit_form input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+    color: #333;
+}
+
+.credit_form input[type=submit] {
+    background-color: #252223;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.messages {
+    margin: 1em auto;
+}
+
+.err, .inf, .res {
+    padding: 1em 1em 1em 3em;
+    border-radius: 1em;
+    color: #222;
+}
+
+.err {
+    background-color: #f88;
+}
+
+.inf {
+    background-color: #89c0e8;
+}
+
+.res {
+    background-color: #fafa92;
+}
+
+.menu {
+    background: #04031b;
+}
+
+.menu .my-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.menu .my-menu a {
+    color: #777;
+    text-decoration: auto;
+}
+
+.menu .my-menu a:hover {
+    color: #fff;
+}
+
+.menu .my-menu ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    list-style: none;
+}
+
+.menu .my-menu ul li {
+    padding-left: 15px;
+}
